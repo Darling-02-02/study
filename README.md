@@ -1,2 +1,32 @@
 # study
-Paper summaries and research notes on 3D reconstruction, yield prediction, machine learning, spectroscopy and quality prediction.
+
+论文总结与课题研究笔记仓库（方向：三维重建、产量预测、机器学习、光谱与品质预测）。
+
+## 仓库内容导航
+
+1. [论文总结 1：黄瓜高产株型与机器学习建模](./summary_1_Machine_Learning_Driven_Cucumber.md)
+- 关键词：温室黄瓜、早期表型、产量预测、GBDT+SVM、加和/协同/拮抗效应。
+- 重点：给出可用于高产筛选的性状参考区间与建模思路。
+
+2. [论文总结 2：番茄近红外高光谱品质与成熟度检测](./summary_2_Tomato_HSI_Quality_Maturity.md)
+- 关键词：NIR-HSI、RNN、PLS、RF、无损检测。
+- 重点：多品质回归 + 成熟度分类一体化建模与关键波段解释。
+
+3. [论文总结 3：红茶合成色素掺假高光谱检测](./summary_3_BlackTea_Pigment_HSI.md)
+- 关键词：HSI、定性+定量、RF/SVM/PLS-DA、PCA/LASSO。
+- 重点：掺假类型识别、掺假比例预测、可视化检测流程。
+
+4. [综合总结：面向“金针菇三维重建、产量预测、机器学习、光谱和品质预测”的落地方案](./summary_overall_for_your_topic.md)
+- 关键词：多模态融合、阶段化建模、多任务学习、可解释部署。
+- 重点：给出可执行的数据采集、建模、验证与部署路线。
+
+## 建议阅读顺序
+
+1. 先看 `summary_overall_for_your_topic.md`（建立整体框架）
+2. 再看三篇论文分项总结（补充方法与指标细节）
+3. 最后按“单模态基线 -> 多模态融合 -> 可解释部署”的顺序推进实验
+
+## 说明
+
+- 本仓库 `md` 文件与本地 `docx` 文档内容对应。
+- 若后续新增论文，可按同样结构继续补充。
